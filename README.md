@@ -24,4 +24,3 @@ BÀI THỰC HÀNH SỐ 1: tạo dự án MVC đầu tiên và đẩy lên github
    - Tích hợp thư viện CSS và trong project DemoMVC: Views/Shared/_Layout.cshtml
    - Chạy project: dotnet watch run
    - Gặp lỗi: "Could not find a MSBuild project file in" => Bị nhầm thư mục gốc chứa project => cần cd tới thư mục chứa project
-5. 
