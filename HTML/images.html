@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* This style sets the width of all images to 100%: */
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Width/Height Attributes or Style?</h2>
+
+    <p>Cấn Văn Tú-2121050958</p>
+    <p>
+      The first image uses the width attribute (set to 128 pixels), but the
+      style in the head section overrides it, and sets the width to 100%.
+    </p>
+
+    <img
+      src="c:\Users\Can Van Tu\Pictures\html5.gif"
+      alt="HTML5 Icon"
+      width="128"
+      height="128"
+    />
+
+    <p>
+      The second image uses the style attribute to set the width to 128 pixels,
+      this will not be overridden by the style in the head section:
+    </p>
+
+    <img
+      src="c:\Users\Can Van Tu\Pictures\html5.gif"
+      alt="HTML5 Icon"
+      style="width: 128px; height: 128px"
+    />
+  </body>
+
+  <body>
+    <h2>Image Maps</h2>
+    <p>
+      Click on the computer, the phone, or the cup of coffee to go to a new page
+      and read more about the topic:
+    </p>
+
+    <img
+      src="c:\Users\Can Van Tu\Pictures\workplace.jpg"
+      alt="Workplace"
+      usemap="#workmap"
+      width="400"
+      height="379"
+    />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="computer.htm"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="phone.htm"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Cup of coffee"
+        href="coffee.htm"
+      />
+    </map>
+  </body>
+
+  <head>
+    <style>
+      body {
+        background-image: url ('c:\Users\Can Van Tu\Pictures\img_5terre.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Background Stretch</h2>
+
+    <p>
+      Set the background-size property to "100% 100%" and the background image
+      will be stretched to cover the entire element, in this case the body
+      element.
+    </p>
+  </body>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h2>The picture Element</h2>
+
+    <picture>
+      <source
+        media="(min-width: 650px)"
+        srcset="c:\Users\Can Van Tu\Pictures\img_food.jpg"
+      />
+      <img
+        src="c:\Users\Can Van Tu\Pictures\img_girl.jpg"
+        style="width: auto"
+      />
+    </picture>
+
+    <p>
+      Resize the browser to see different versions of the picture loading at
+      different viewport sizes. The browser looks for the first source element
+      where the media query matches the user's current viewport width, and
+      fetches the image specified in the srcset attribute.
+    </p>
+
+    <p>
+      The img element is required as the last child tag of the picture
+      declaration block. The img element is used to provide backward
+      compatibility for browsers that do not support the picture element, or if
+      none of the source tags matched.
+    </p>
+  </body>
+</html>
