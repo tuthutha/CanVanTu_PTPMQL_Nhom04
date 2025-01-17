@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<p>Note: We use href="#" for test links. In a real web site this would be URLs.</p>
+<p>Cấn Văn Tú-2121050958</p>
+
+</body>
+
+<head>
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+    }
+    
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    
+    li a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Vertical Navigation Bar</h2>
+    <p>In this example, we create an "active" class with a green background color and a white text. The class is added to the "Home" link.</p>
+    
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    
+</body>
+
+<head>
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      padding: 8px;
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    
+    <p><b>Note:</b> If a !DOCTYPE is not specified, floating items can produce unexpected results.</p>
+    <p>A background color is added to the links to show the link area. The whole link area is clickable, not just the text.</p>
+    <p><b>Note:</b> overflow:hidden is added to the ul element to prevent li elements from going outside of the list.</p>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a[target] {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS [attribute] Selector Cấn Văn Tú-2121050958</h2>
+    <p>The links with a target attribute gets a yellow background:</p>
+
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+  </body>
+
+  <head>
+    <style>
+      [title~='flower'] {
+        border: 5px solid yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS [attribute~="value"] Selector</h2>
+    <p>
+      All images with the title attribute containing the word "flower" get a
+      yellow border.
+    </p>
+
+    <img
+      src="c:\Users\Can Van Tu\Pictures\klematis.jpg"
+      title="klematis flower"
+      width="150"
+      height="113"
+    />
+    <img
+      src="c:\Users\Can Van Tu\Pictures\img_flwr.gif"
+      title="flower"
+      width="224"
+      height="162"
+    />
+    <img
+      src="c:\Users\Can Van Tu\Pictures\img_tree.gif"
+      title="tree"
+      width="200"
+      height="358"
+    />
+  </body>
+
+  <head>
+    <style>
+      input[type='text'] {
+        width: 150px;
+        display: block;
+        margin-bottom: 10px;
+        background-color: yellow;
+      }
+
+      input[type='button'] {
+        width: 120px;
+        margin-left: 35px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Styling Forms</h2>
+
+    <form name="input" action="" method="get">
+      Firstname:<input type="text" name="Name" value="Peter" size="20" />
+      Lastname:<input type="text" name="Name" value="Griffin" size="20" />
+      <input type="button" value="Example Button" />
+    </form>
+  </body>
+</html>
