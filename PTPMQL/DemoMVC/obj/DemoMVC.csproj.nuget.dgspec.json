@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\DemoMVC\\DemoMVC.csproj": {}
+    "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\PTPMQL\\DemoMVC\\DemoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\DemoMVC\\DemoMVC.csproj": {
+    "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\PTPMQL\\DemoMVC\\DemoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\DemoMVC\\DemoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\PTPMQL\\DemoMVC\\DemoMVC.csproj",
         "projectName": "DemoMVC",
-        "projectPath": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\DemoMVC\\DemoMVC.csproj",
+        "projectPath": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\PTPMQL\\DemoMVC\\DemoMVC.csproj",
         "packagesPath": "C:\\Users\\Can Van Tu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\DemoMVC\\obj\\",
+        "outputPath": "C:\\Users\\Can Van Tu\\OneDrive\\Desktop\\PhatTrienPMQL2425K2-Nhom04\\PTPMQL\\PTPMQL\\DemoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can Van Tu\\AppData\\Roaming\\NuGet\\NuGet.Config"
