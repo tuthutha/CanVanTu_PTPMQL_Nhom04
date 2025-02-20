@@ -1,0 +1,7 @@
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.AssemblyInfoInputs.cache
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.AssemblyInfo.cs
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.csproj.CoreCompileInputs.cache
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.RazorAssemblyInfo.cache
+C:\Users\Can Van Tu\OneDrive\Desktop\PhatTrienPMQL2425K2-Nhom04\PTPMQL\DemoMVC\obj\Debug\net8.0\DemoMVC.RazorAssemblyInfo.cs
