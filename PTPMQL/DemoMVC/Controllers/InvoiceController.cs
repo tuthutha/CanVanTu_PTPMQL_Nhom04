@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.JSInterop.Infrastructure;
 using DemoMVC.Models;
 
-namespace MvcMovie.Controllers
+namespace DemoMVC.Controllers
 {
     public class InvoiceController : Controller
     {

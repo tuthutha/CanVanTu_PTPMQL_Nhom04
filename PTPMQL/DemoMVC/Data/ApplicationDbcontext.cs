@@ -9,6 +9,6 @@ namespace DemoMVC.Data
         {
         }
 
-        public DbSet<Person> Person { get; set; }
+        public DbSet<Person> Persons { get; set; }
     }
 }
